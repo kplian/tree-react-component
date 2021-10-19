@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <TreeMui /> should show the component correctly 1`] = `
+<ForwardRef(TreeView)
+  aria-label="pxp-tree"
+  defaultCollapseIcon={
+    <Memo
+      color="warning"
+    />
+  }
+  defaultEndIcon={
+    <Memo
+      color="info"
+    />
+  }
+  defaultExpandIcon={
+    <Memo
+      color="warning"
+    />
+  }
+  defaultExpanded={
+    Array [
+      "1",
+    ]
+  }
+  onNodeSelect={[Function]}
+  onNodeToggle={[Function]}
+  sx={
+    Object {
+      "flexGrow": 1,
+      "height": 500,
+      "maxWidth": 500,
+      "overflowY": "auto",
+    }
+  }
+>
+  <ForwardRef(Menu)
+    anchorReference="anchorPosition"
+    onClose={[Function]}
+    open={false}
+  >
+    <ForwardRef(MenuItem)
+      onClick={[Function]}
+    >
+      <ForwardRef(ListItemIcon)>
+        <Memo(ForwardRef(AddIcon))
+          fontSize="small"
+        />
+      </ForwardRef(ListItemIcon)>
+      <ForwardRef(ListItemText)>
+        Add
+      </ForwardRef(ListItemText)>
+    </ForwardRef(MenuItem)>
+    <ForwardRef(MenuItem)
+      onClick={[Function]}
+    >
+      <ForwardRef(ListItemIcon)>
+        <Memo(ForwardRef(DeleteIcon))
+          fontSize="small"
+        />
+      </ForwardRef(ListItemIcon)>
+      <ForwardRef(ListItemText)>
+        Delete
+      </ForwardRef(ListItemText)>
+    </ForwardRef(MenuItem)>
+  </ForwardRef(Menu)>
+</ForwardRef(TreeView)>
+`;
